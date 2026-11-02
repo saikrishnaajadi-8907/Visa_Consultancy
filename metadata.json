@@ -1,0 +1,8 @@
+{
+  "name": "Remix ApexVisa - Visa Consultancy Management System",
+  "description": "Enterprise Visa Consultancy Management System (VCMS) for applicant portfolios, custom company bank accounts, and financial record ledgers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

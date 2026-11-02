@@ -1,0 +1,19 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { AppStateProvider } from './context/AppStateContext';
+import { AppRoutes } from './routes';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppStateProvider>
+        <AppRoutes />
+      </AppStateProvider>
+    </BrowserRouter>
+  );
+}
